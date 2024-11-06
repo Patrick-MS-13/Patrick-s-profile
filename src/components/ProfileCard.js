@@ -21,7 +21,7 @@ const ProfileCard = ({ name, jobTitle, location, about }) => {
 
             {/* About section */}
             <div className="about-section">
-                <h3>About</h3>
+                {/* <h3>About</h3> */}
                 <p className="about-text">"I'm a passionate frontend developer"</p>
             </div>
 
