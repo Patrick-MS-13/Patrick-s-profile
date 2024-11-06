@@ -42,7 +42,7 @@ const ProfileCard = ({ name, jobTitle, location, about }) => {
                 <a href="mailto:patrickms567@gmail.com" target="_blank" rel="noopener noreferrer">
                     <img src={gmail} alt="Gmail" className="social-icon" />
                 </a>
-                <a href="https://t.me/@Patrick_MS" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/Patrick_MS" target="_blank" rel="noopener noreferrer">
                     <img src={tele} alt="Telegram" className="social-icon" />
                 </a>
                 {/* <a href="https://x.com/PatrickMS_13" target="_blank" rel="noopener noreferrer">
