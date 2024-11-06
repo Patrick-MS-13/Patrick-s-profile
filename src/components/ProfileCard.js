@@ -17,7 +17,7 @@ const ProfileCard = ({ name, jobTitle, location, about }) => {
             <h2 className="profile-name">{"Patrick MS"}</h2>
             <img src={Patrick} alt={"Patrick"} className="profile-image" />
             <p className="profile-job">{jobTitle}</p>
-            <p className="profile-location">{"Tiruchirappalli, INDIA"}</p>
+            {/* <p className="profile-location">{"Tiruchirappalli, INDIA"}</p> */}
 
             {/* About section */}
             <div className="about-section">

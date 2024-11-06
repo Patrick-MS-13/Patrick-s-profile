@@ -11,7 +11,7 @@
 /* Profile Card Styling */
 .profile-card {
     width: 350px;
-    height: 450px;
+    height: 400px;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 20px;
@@ -67,7 +67,7 @@
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid #333;
+    /* border-right: 3px solid #ffffff; */
     animation: typing 3s steps(20) 1s 1 normal both;
 }
 
@@ -78,6 +78,9 @@
     to {
         width: 100%;
     }
+}
+.social-links{
+    margin-top: 30px;
 }
 
 /* Social Icon Hover Effect */
@@ -127,4 +130,47 @@ a img[src*="telegram"], a img[src*="X.png"] {
 
 .profile-card:hover .profile-back {
     transform: rotateY(0deg);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .profile-card {
+        width: 280px; /* Smaller card on tablets and mobile */
+        height: 380px;
+    }
+
+    .profile-image {
+        width: 120px; /* Smaller image */
+        height: 150px;
+    }
+
+    .profile-name {
+        font-size: 20px; /* Smaller text */
+    }
+
+    .social-icon {
+        width: 25px; /* Smaller icons */
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        width: 250px; /* Even smaller card on smaller screens */
+        height: 335px;
+    }
+
+    .profile-image {
+        width: 100px; /* Even smaller image */
+        height: 130px;
+    }
+
+    .profile-name {
+        font-size: 18px; /* Further reduced text size */
+    }
+
+    .social-icon {
+        width: 20px; /* Smaller icons */
+        height: 20px;
+    }
 }
