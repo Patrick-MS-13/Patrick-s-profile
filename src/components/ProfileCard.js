@@ -10,6 +10,7 @@ import gmail from '../images/gmail.svg';  // Gmail icon
 import tele from '../images/telegram.svg';  // Telegram icon
 import TwitterSVG from '../images/X.png';  // Twitter icon
 
+
 const ProfileCard = ({ name, jobTitle, location, about }) => {
     return (
         <div className="profile-card">
