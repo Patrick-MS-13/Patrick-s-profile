@@ -8,7 +8,7 @@ import github from '../images/github.svg';  // GitHub icon
 import linkedin from '../images/linkedin.svg';  // LinkedIn icon
 import gmail from '../images/gmail.svg';  // Gmail icon
 import tele from '../images/telegram.svg';  // Telegram icon
-import TwitterSVG from '../images/X.png';  // Twitter icon
+// import TwitterSVG from '../images/X.png';  // Twitter icon
 
 
 const ProfileCard = ({ name, jobTitle, location, about }) => {
@@ -45,9 +45,9 @@ const ProfileCard = ({ name, jobTitle, location, about }) => {
                 <a href="https://t.me/@Patrick_MS" target="_blank" rel="noopener noreferrer">
                     <img src={tele} alt="Telegram" className="social-icon" />
                 </a>
-                <a href="https://x.com/PatrickMS_13" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://x.com/PatrickMS_13" target="_blank" rel="noopener noreferrer">
                     <img src={TwitterSVG} alt="Twitter" className="social-icon" />
-                </a>
+                </a> */}
             </div>
         </div>
     );
