@@ -202,10 +202,10 @@
 }
 
 .patricks-icon{
-    top: 7px;
+    top: 113px;
     position: absolute;
     bottom: 0px;
-    left: -134px;
+    left: -102px;
     width: 632px;
 }
 
@@ -286,7 +286,6 @@
     .patricks-icon{
         top: 50px;
         position: absolute;
-        /* bottom: 24px; */
         left: -12px;
         width: 405px;
     }

@@ -42,10 +42,10 @@ const ProfileCard = ({ name, jobTitle, location, about }) => {
 
             <div className="profile-content">
                 <p className="profile-job">{jobTitle}</p>
-                <div className="about-section">
+                <div className="about-section" style={{paddingLeft: "3pxs"}}>
                     <p className="about-text">"I'm a passionate frontend developer"</p>
                 </div>
-                <div className="social-links scroll" style={{ '--t': '20s', width: '271px' }}>
+                <div className="social-links scroll" style={{ '--t': '20s', width: '322px' }}>
                     <div>
                         <a href="https://www.instagram.com/pa.trick.ms/" target="_blank" rel="noopener noreferrer">
                             <img src={insta} alt="Instagram" className="social-icon" />
