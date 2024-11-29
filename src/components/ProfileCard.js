@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProfileCard.css';
+import '../Style/ProfileCard.css';
 import Patrick from '../images/Patrick.png'; // Profile image
 import insta from '../images/instagram.svg'; // Instagram icon
 import whatsapp from '../images/whatsapp.svg'; // WhatsApp icon
